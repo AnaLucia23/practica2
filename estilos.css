@@ -1,0 +1,29 @@
+ul { list-style: none; display: inline-flex;}
+a {text-decoration: none;}
+footer {background-color: #A86BBA;}
+header {background-color: #A86BBA;; text-align: right;}
+
+nav>ul>li:hover {font-size: x-large; color: cyan;}
+nav>ul>li {margin: 12px;}
+
+section>ul>li>a:hover {font-size:large; color: cornsilk;}
+section>ul>li>a {display:flexbox; color: black; text-align: center;}
+
+#tabContenedor { background-color: darkgoldenrod; text-align: center;}
+
+#tabContenido div {
+    display: inline-block;
+    position: absolute; 
+    width: 60%; 
+    padding: 3px 5px;
+    border-radius: 0px 0px 10px 10px;
+   }
+
+   #tabContenido div:not(:nth-child(1)) {display: none;}
+   #tabContenido div:target {display: inline-block; background-color: darkorchid;}
+
+   #detalleInfo table {
+    width: 80%;
+    align-self: center;
+    background: rgb(182, 179, 179);
+   }
