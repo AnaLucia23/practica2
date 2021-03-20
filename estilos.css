@@ -3,11 +3,11 @@ a {text-decoration: none;}
 footer {background-color:#372e29;}
 header {background-color:#372e29;; text-align: right;}
 
-nav>ul>li:hover {font-size: x-large; color: cyan;border-radius: 30px; background-color: coral; margin: 30px; padding: 10px; justify-content: center;}
-nav>ul>li {margin: 12px;}
+nav>ul>li:hover {font-size: large; color: #ecb939;border-radius: 10px; background-color: #726255; margin: 30px; padding: 10px; justify-content: center;}
+nav>ul>li {margin: 12px;color:#000000;border-radius: 10px; background-color: #ecb939;}
 
-section>ul>li>a:hover {font-size:large; color: cornsilk;}
-section>ul>li>a {display: flexbox; color: black; text-align: center;border-radius: 30px; background-color: coral; margin: 30px; padding: 10px; justify-content: center;}
+section>ul>li>a:hover {font-size:large; color: 	#ecb939;}
+section>ul>li>a {display: flexbox; color: 	#ecb939; text-align: center;border-radius: 30px; background-color: 	#726255; margin: 30px; padding: 10px; justify-content: center;}
 
 #tabContenido div {
     display: inline-block;
@@ -19,7 +19,7 @@ section>ul>li>a {display: flexbox; color: black; text-align: center;border-radiu
    }
 
    #tabContenido div:not(:nth-child(1)) {display: none;}
-   #tabContenido div:target {display: inline-block; background-color: darkorchid;}
+   #tabContenido div:target {display: inline-block; background-color: 	#ecb939;}
 
    #detalleInfo table {
     width: 80%;
@@ -37,16 +37,16 @@ section>ul>li>a {display: flexbox; color: black; text-align: center;border-radiu
    }
    
    #detalleInfo table{
-       background: red;
+       background:#372e29;
        padding: 5px;
+       color: snow;
    }
    #detalleInfo table tr:nth-child(even){
-    background-color: rgba(238, 145, 184, 0.863);
+    background-color:#726255;
    }
 
    #detalleInfo table tr:nth-child(odd){
-    background-color: rgb(197, 196, 184);
-   }
+    background-color:#ecb939;}
 
    footer>ul {color: #ecb939; justify-content: center; list-style: none; display: inline-flex; padding: 5px; width: 100%;}
    footer>ul>li {margin-left: 35px;}
