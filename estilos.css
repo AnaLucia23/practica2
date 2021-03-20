@@ -7,15 +7,16 @@ nav>ul>li:hover {font-size: x-large; color: cyan;}
 nav>ul>li {margin: 12px;}
 
 section>ul>li>a:hover {font-size:large; color: cornsilk;}
-section>ul>li>a {display:flexbox; color: black; text-align: center;}
+section>ul>li>a {display: flexbox; color: black; text-align: center;border-radius: 30px; background-color: coral; margin: 30px; padding: 10px; justify-content: center;}
 
-#tabContenedor { background-color: darkgoldenrod; text-align: center;}
+#tabContenedor { background-color: darkgoldenrod; text-align: center; height: 40px;}
 
 #tabContenido div {
     display: inline-block;
     position: absolute; 
     width: 60%; 
     padding: 3px 5px;
+    background-color: cyan;
     border-radius: 0px 0px 10px 10px;
    }
 
@@ -27,3 +28,5 @@ section>ul>li>a {display:flexbox; color: black; text-align: center;}
     align-self: center;
     background: rgb(182, 179, 179);
    }
+
+   .botones { border-radius: 30px; color: coral; margin: 30px; padding: 10px;}
